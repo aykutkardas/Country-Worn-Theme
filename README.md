@@ -4,4 +4,4 @@ Lightweight, simple and traditional. Brackets Theme
 
 
 ### Preview
-![enter image description here](https://raw.githubusercontent.com/aykutkardas/Country-Worn-Theme/master/country-worn-theme-ss.PNG)
+![Country Worn Theme Preview](https://raw.githubusercontent.com/aykutkardas/Country-Worn-Theme/master/country-worn-theme-ss.PNG)
