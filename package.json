@@ -1,0 +1,24 @@
+{
+  "title": "Country Worn Theme",
+  "name": "aykutkardas.country-worn-theme",
+  "description": "Lightweight, simple and traditional.",
+  "version": "1.0.0",
+  "author": {
+  "name": "aykutkardas",
+  "url": "https://github.com/aykutkardas"
+  },
+  "homepage": "https://github.com/aykutkardas/Country-Worn-Theme",
+  "repository": {
+        "type": "git",
+        "url": "https://github.com/aykutkardas/Country-Worn-Theme.git"
+    },
+  "license": "MIT",
+  "engines": {
+    "brackets": ">=1.3.0"
+  },
+  "theme": {
+    "file": "main.min.css",
+    "dark": true
+  },
+  "keywords": ["theme","worn","dark","country","simple","text","fork","extension","css"]
+}
