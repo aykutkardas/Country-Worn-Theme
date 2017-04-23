@@ -1,0 +1,156 @@
+body {
+  background: #333;
+}
+.cm-bracket,
+.cm-keyword,
+.cm-tag {
+    color: #E6622D;
+}
+.cm-atom,
+.cm-link {
+   color: #92f191;
+   font-style: italic;
+}
+.cm-number {
+    color: #d1de4e;
+    font-style: italic;
+}
+.cm-operator,
+.cm-variable,
+.cm-variable-3 {
+    color: #d8b11d;
+  font-style: italic;
+}
+.cm-attribute,
+.cm-builtin,
+.cm-meta {
+    color: #aad235;
+}
+
+.cm-qualifier {
+    color: #d368f5;;
+}
+.cm-string,
+.cm-string-2 {
+    color: #f5e659;
+    font-style: italic;
+}
+.cm-property,
+.cm-variable-2 {
+    color: #a78d8d;
+}
+.cm-comment {
+    color: #8c8c8c
+}
+.cm-def {
+    color: #FD971F
+}
+
+.CodeMirror-line {
+  color: gray;
+}
+.cm-matchhighlight {
+    background: #333
+}
+.cm-error {
+    background: #F92672;
+    color: #F8F8F2!important
+}
+.CodeMirror,
+.CodeMirror-scroll {
+    background: #242424;
+    color: #F8F8F2
+}
+.CodeMirror-gutters {
+    background: #242424
+}
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt,
+.CodeMirror-focused .CodeMirror-activeline-background,
+.inline-widget .CodeMirror-gutter-elt {
+    background: #3C3F41
+}
+.CodeMirror-linenumber {
+    color: #767676
+}
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+    color: #F8F8F2
+}
+.CodeMirror-cursor {
+    border-left: 1px solid #F8F8F2!important
+}
+.CodeMirror-selected {
+    background: #3C3F41;
+    opacity: .23
+}
+.CodeMirror-focused .CodeMirror-selected {
+    background: #E6DB74;
+    color: #242424
+}
+.CodeMirror-matchingbracket {
+    background: 0 0!important;
+    color: #1dff00!important;
+    text-shadow: 0 0 10px #1dff00;
+    font-weight: 700
+}
+.CodeMirror-nonmatchingbracket {
+    background: #F92672!important;
+    color: #F8F8F2!important
+}
+.CodeMirror-matchingtag {
+    background: rgba(255, 255, 255, .15)
+}
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-left: none!important;
+    border-bottom: 1px solid #F8F8F2
+}
+.CodeMirror-searching {
+    background: #E6DB74
+}
+.searching-current-match {
+    background: #FD971F
+}
+.CodeMirror-foldgutter-open:after {
+    content: "˅";
+    font-size: 1.32em;
+    color: #767676
+}
+.CodeMirror-foldgutter-folded:after {
+    content: "+";
+    font-size: 1.3em;
+    font-weight: 700;
+    background: 0 0!important;
+    color: #1dff00!important;
+    text-shadow: 0 0 10px #1dff00
+}
+.CodeMirror-foldgutter-folded {
+    padding-top: 2px
+}
+.CodeMirror-foldgutter-open {
+    padding-top: 1px
+}
+.CodeMirror-foldmarker {
+    display: inline-block;
+    border-radius: .75em;
+    padding: 0 2px;
+    border: 0;
+    font-size: .75em;
+    color: #1dff00!important;
+    text-shadow: 0 0 10px #1dff00;
+    background: 0 0
+}
+.CodeMirror-foldmarker:after {
+    content: '\2022\2022\2022';
+    position: relative;
+    top: 1px
+}
+.ico-cssColorPreview {
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    margin-bottom: 2px
+}
+.brackets-git-gutter-added,
+.brackets-git-gutter-modified,
+.brackets-git-gutter-removed {
+    width: 3px
+}
