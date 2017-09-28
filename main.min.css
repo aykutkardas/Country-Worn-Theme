@@ -17,7 +17,6 @@
     color: #FFD4D4;
     font-weight: bold;
     padding: 0px 3px;
-    font-size: 9pt;
 }
 .cm-variable {
     color: #2CD296;
@@ -38,7 +37,6 @@
 }
 .cm-string {
     color: #E8E427;
-    font-size: 9pt;
 }
 .cm-string-2 {
     color: #f5e659;
@@ -100,7 +98,6 @@
 .CodeMirror-matchingbracket {
     background: 0 0 !important;
     color: #d7de1c !important;
-    font-size: 12pt;
     text-shadow: 0 0 10px #2e2d2d;
     font-weight: 700
 }
@@ -123,12 +120,10 @@
 }
 .CodeMirror-foldgutter-open:after {
     content: "˅";
-    font-size: 1.32em;
     color: #767676
 }
 .CodeMirror-foldgutter-folded:after {
     content: "+";
-    font-size: 1.3em;
     font-weight: 700;
     background: 0 0 !important;
     color: #1dff00 !important;
@@ -151,7 +146,6 @@
     border-radius: .75em;
     padding: 0 2px;
     border: 0;
-    font-size: .75em;
     color: #1dff00!important;
     text-shadow: 0 0 10px #1dff00;
     background: 0 0
